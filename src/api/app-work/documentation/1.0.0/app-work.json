@@ -53,12 +53,10 @@
                                 "format": "float"
                               },
                               "APPTIME": {
-                                "type": "string",
-                                "format": "date-time"
+                                "type": "string"
                               },
                               "ENDTIME": {
-                                "type": "string",
-                                "format": "date-time"
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -669,12 +667,10 @@
                               "format": "float"
                             },
                             "APPTIME": {
-                              "type": "string",
-                              "format": "date-time"
+                              "type": "string"
                             },
                             "ENDTIME": {
-                              "type": "string",
-                              "format": "date-time"
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -1204,12 +1200,10 @@
                               "format": "float"
                             },
                             "APPTIME": {
-                              "type": "string",
-                              "format": "date-time"
+                              "type": "string"
                             },
                             "ENDTIME": {
-                              "type": "string",
-                              "format": "date-time"
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -1729,12 +1723,10 @@
                               "format": "float"
                             },
                             "APPTIME": {
-                              "type": "string",
-                              "format": "date-time"
+                              "type": "string"
                             },
                             "ENDTIME": {
-                              "type": "string",
-                              "format": "date-time"
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -2245,12 +2237,10 @@
                         "format": "float"
                       },
                       "APPTIME": {
-                        "type": "string",
-                        "format": "date-time"
+                        "type": "string"
                       },
                       "ENDTIME": {
-                        "type": "string",
-                        "format": "date-time"
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

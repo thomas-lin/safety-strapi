@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-06-18T02:09:50.939Z"
+    "x-generation-date": "2024-06-18T12:14:47.101Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2415,12 +2415,10 @@
                                 "format": "float"
                               },
                               "APPTIME": {
-                                "type": "string",
-                                "format": "date-time"
+                                "type": "string"
                               },
                               "ENDTIME": {
-                                "type": "string",
-                                "format": "date-time"
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -3031,12 +3029,10 @@
                               "format": "float"
                             },
                             "APPTIME": {
-                              "type": "string",
-                              "format": "date-time"
+                              "type": "string"
                             },
                             "ENDTIME": {
-                              "type": "string",
-                              "format": "date-time"
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -3566,12 +3562,10 @@
                               "format": "float"
                             },
                             "APPTIME": {
-                              "type": "string",
-                              "format": "date-time"
+                              "type": "string"
                             },
                             "ENDTIME": {
-                              "type": "string",
-                              "format": "date-time"
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -4091,12 +4085,10 @@
                               "format": "float"
                             },
                             "APPTIME": {
-                              "type": "string",
-                              "format": "date-time"
+                              "type": "string"
                             },
                             "ENDTIME": {
-                              "type": "string",
-                              "format": "date-time"
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -4607,12 +4599,10 @@
                         "format": "float"
                       },
                       "APPTIME": {
-                        "type": "string",
-                        "format": "date-time"
+                        "type": "string"
                       },
                       "ENDTIME": {
-                        "type": "string",
-                        "format": "date-time"
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
