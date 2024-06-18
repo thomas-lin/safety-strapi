@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_works",
+  "info": {
+    "singularName": "app-work",
+    "pluralName": "app-works",
+    "displayName": "AppWork",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AC_NO": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "CMODE": {
+      "type": "string"
+    },
+    "TC_NA": {
+      "type": "string"
+    },
+    "AP_NAME": {
+      "type": "string"
+    },
+    "DIGADD": {
+      "type": "string"
+    },
+    "PURP": {
+      "type": "string"
+    },
+    "VIDEOURL": {
+      "type": "string"
+    },
+    "VIDEONO": {
+      "type": "integer"
+    },
+    "LAT": {
+      "type": "float"
+    },
+    "LON": {
+      "type": "decimal"
+    },
+    "APPTIME": {
+      "type": "datetime"
+    },
+    "ENDTIME": {
+      "type": "datetime"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_safety_counters",
+  "info": {
+    "singularName": "app-safety-counter",
+    "pluralName": "app-safety-counters",
+    "displayName": "AppSafetyCounter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AC_NO": {
+      "type": "string"
+    },
+    "SafetyClass": {
+      "type": "string"
+    },
+    "SafetyCount": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    }
+  }
+}

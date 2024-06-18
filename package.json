@@ -1,0 +1,90 @@
+{
+  "name": "safety-strapi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "commitlint": "commitlint --edit $1",
+    "deploy": "strapi deploy",
+    "develop": "strapi develop",
+    "prepare": "is-ci || yarn prepare:husky",
+    "prepare:husky": "[ ! -d .git ] || { rm -rf .husky; husky install; husky add .husky/commit-msg 'yarn commitlint'; }",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "test": "jest --forceExit --detectOpenHandles"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/changelog",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "angular"
+        }
+      ],
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "message": "chore(release): ${nextRelease.version} [ci skip]\n\n${nextRelease.notes}"
+        }
+      ]
+    ],
+    "tagFormat": "${version}"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      ".tmp",
+      ".cache"
+    ]
+  },
+  "dependencies": {
+    "@strapi/plugin-documentation": "4.1.8",
+    "@strapi/plugin-graphql": "4.1.8",
+    "@strapi/plugin-i18n": "4.1.8",
+    "@strapi/plugin-users-permissions": "4.1.8",
+    "@strapi/strapi": "4.1.8",
+    "crc": "^4.1.1",
+    "mysql": "2.18.1",
+    "sharp": "^0.30.7",
+    "strapi-plugin-transformer": "^3.1.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "husky": "^7.0.4",
+    "is-ci": "^3.0.1",
+    "jest": "^27.5.1",
+    "semantic-release": "^19.0.2",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.2"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "1de17268-018c-4b75-8993-8bf7b1ad5d69",
+    "template": "../maxwin-strapi-template"
+  }
+}
