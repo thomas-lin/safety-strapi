@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_safety_events",
+  "info": {
+    "singularName": "app-safety-event",
+    "pluralName": "app-safety-events",
+    "displayName": "AppSafetyEvent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ac_no": {
+      "type": "string"
+    },
+    "cls_id": {
+      "type": "integer"
+    },
+    "cls_name": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "float"
+    },
+    "trace_id": {
+      "type": "integer"
+    }
+  }
+}
